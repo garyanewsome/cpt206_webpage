@@ -1,0 +1,143 @@
+/*  JavaScript 6th Edition
+
+    Author: Gary A. Newsome;
+    Landing page css
+
+    Filename: styles.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+   max-width: 1000px;
+   background: #CCCCEE;
+   color: #333333;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* page header */
+header {
+   background: #9999BB;
+   width: 100%;
+   color: #FFFFFF;
+   font-family: 'Crushed', cursive, sans-serif;;
+   text-align: center;
+   border: 5px solid #FFFFFF;
+   border-style: inset;
+}
+
+header h1 {
+   letter-spacing: .1em;
+   text-shadow: 1px 1px 1px #000080;
+   padding: 5px;
+}
+
+nav ul {  list-style-type: none;
+      margin: 0;
+      padding: 0; }
+
+nav { 
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, serif;}
+
+nav a { text-decoration: none;
+    padding: 10px;  
+}
+
+li  {
+  display: inline;
+}
+
+
+    nav a:link {      background-color: #9999BB;
+    color: #FFFFFF;
+    border: 5px inset #FFFFFF; }
+
+nav a:visited {     background-color: #9999BB;
+    color: #DEDEDE;
+    border: 5px inset #FFFFFF; }
+
+nav a:hover {     background-color: #FFFFFF;
+    color: #9999BB;
+    border: 5px outset #9999BB; }
+
+main {  
+    color: #000080;
+    padding: 10px;
+    overflow: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-right: 20px;
+    font-family: 'Crushed', cursive, sans-serif;}
+
+h1  {
+  font-size: 64px;
+}
+
+h2  {
+  font-size: 36px;
+}
+
+h3  {
+  font-size: 2em;
+}
+
+/* main content */
+article {
+   text-align: center;
+   font-weight: bold;
+   font-family: Arial, sans-serif;
+ }
+
+#quote {
+  color: #000080;
+  font-family: Georgia;
+}
+
+
+footer  {
+  text-align: center;
+  padding: 10px;
+  clear: both;
+}
