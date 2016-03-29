@@ -71,16 +71,16 @@ header h1 {
    padding: 5px;
 }
 
-nav ul {  list-style-type: none;
+.link ul {  list-style-type: none;
       margin: 0;
       padding: 0; }
 
-nav { 
+.link { 
     text-align: center;
     font-weight: bold;
     font-family: Georgia, serif;}
 
-nav a { text-decoration: none;
+.link a { text-decoration: none;
     padding: 10px;  
 }
 
@@ -88,20 +88,19 @@ li  {
   display: inline;
 }
 
-
-    nav a:link {      background-color: #9999BB;
+.link a:link {      background-color: #9999BB;
     color: #FFFFFF;
     border: 5px inset #FFFFFF; }
 
-nav a:visited {     background-color: #9999BB;
+.link a:visited {     background-color: #9999BB;
     color: #DEDEDE;
     border: 5px inset #FFFFFF; }
 
-nav a:hover {     background-color: #FFFFFF;
+.link a:hover {     background-color: #FFFFFF;
     color: #9999BB;
     border: 5px outset #9999BB; }
 
-main {  
+.quote {  
     color: #000080;
     padding: 10px;
     overflow: auto;
@@ -119,22 +118,9 @@ h2  {
   font-size: 36px;
 }
 
-h3  {
-  font-size: 2em;
+h3 {
+  font-size: 1.25em;
 }
-
-/* main content */
-article {
-   text-align: center;
-   font-weight: bold;
-   font-family: Arial, sans-serif;
- }
-
-#quote {
-  color: #000080;
-  font-family: Georgia;
-}
-
 
 footer  {
   text-align: center;
